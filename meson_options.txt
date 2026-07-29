@@ -121,6 +121,8 @@ option('albumart', type: 'boolean', value: true,
        description: 'Whether the Album Art plugin is enabled')
 option('ampache', type: 'boolean', value: true,
        description: 'Whether the Ampache Browser plugin is enabled')
+option('opensubsonic', type: 'boolean', value: true,
+       description: 'Whether the OpenSubsonic Browser plugin is enabled')
 option('aosd', type: 'boolean', value: true,
        description: 'Whether the OSD plugin (X11) is enabled')
 option('delete-files', type: 'boolean', value: true,

@@ -21,7 +21,11 @@
 #include <cstring>
 
 #include <glib.h>
+#if __has_include(<opusfile.h>)
+#include <opusfile.h>
+#else
 #include <opus/opusfile.h>
+#endif
 
 #define AUD_GLIB_INTEGRATION
 #define WANT_AUD_BSWAP

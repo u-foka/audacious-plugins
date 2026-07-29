@@ -127,6 +127,10 @@ if conf.has('USE_QT')
     subdir('ampache')
   endif
 
+  if get_option('opensubsonic')
+    subdir('opensubsonic')
+  endif
+
   if get_option('blurscope')
     subdir('blur_scope-qt')
   endif
